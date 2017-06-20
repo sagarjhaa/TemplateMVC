@@ -11,7 +11,8 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Template.Models;
-using WelcomeHomeWeb.Repositories;
+using Template.Web;
+
 
 namespace Template
 {

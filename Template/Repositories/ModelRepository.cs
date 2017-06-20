@@ -14,10 +14,13 @@ namespace Template.Repositories
 
         public override Task InsertOrUpdateAsync(TEntity model)
         {
-            if (model.RowVersion == null)
+            //if (model.RowVersion == null)
+            if (model.Id == null)
+
             {
                 // ensure id is set
-                if (model.Id == null) model.Id = Guid.NewGuid().ToString();
+                //if (model.Id == null)
+                model.Id = Guid.NewGuid().ToString();
                 // add to set
                 Context.Set<TEntity>().Add(model);
             }

@@ -1,9 +1,8 @@
-﻿using Microsoft.AspNet.Identity.EntityFramework;
-using System.Data.Entity;
+﻿using System.Data.Entity;
+using Microsoft.AspNet.Identity.EntityFramework;
 using Template.Models;
 
-
-namespace Template.Web
+namespace Template.Repositories
 {
     public class DataContext : IdentityDbContext<ApplicationUser>
     {

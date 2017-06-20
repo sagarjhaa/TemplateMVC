@@ -6,7 +6,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using Template.Models;
-using Template.Web;
+using Template.Repositories;
 
 namespace Template
 {

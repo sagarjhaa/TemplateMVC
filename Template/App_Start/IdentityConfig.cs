@@ -11,7 +11,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Template.Models;
-using Template.Web;
+using Template.Repositories;
 
 
 namespace Template

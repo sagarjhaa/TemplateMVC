@@ -92,9 +92,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Template\Template.csproj">
+    <ProjectReference Include="..\Template\Template.Web.csproj">
       <Project>{A30191A1-EBAC-4CF9-B4EE-CF3AE182606C}</Project>
-      <Name>Template</Name>
+      <Name>Template.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

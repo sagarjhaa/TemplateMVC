@@ -3,7 +3,7 @@ using System.Data.Entity;
 using Template.Models;
 
 
-namespace WelcomeHomeWeb.Repositories
+namespace Template.Web
 {
     public class DataContext : IdentityDbContext<ApplicationUser>
     {
